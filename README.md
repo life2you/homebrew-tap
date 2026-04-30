@@ -1,33 +1,29 @@
-# Homebrew Tap Scaffold
+# life2you Homebrew Tap
 
-This directory is a scaffold for the `life2you/homebrew-tap` repository.
+Custom Homebrew tap for life2you's tools.
 
-## Expected tap repo name
+## Available Formulas
 
-```text
-homebrew-tap
-```
+| Formula | Description | Install |
+|---------|-------------|---------|
+| **gwtm** | Git worktree manager for local multi-project workflows | `brew install life2you/tap/gwtm` |
+| **gmux** | Terminal Git workflow tool for multi-env branch sync and GitLab MR automation | `brew install life2you/tap/gmux` |
 
-## Expected formula path
-
-```text
-Formula/gwtm.rb
-```
-
-## Install command after publishing
+## Usage
 
 ```bash
-brew install life2you/tap/gwtm
+# Add this tap
+brew tap life2you/tap
+
+# Install tools
+brew install gwtm
+brew install gmux
 ```
 
-## How to publish
-
-1. Create the GitHub repository `life2you/homebrew-tap`
-2. Copy the contents of this directory into that repository root
-3. Replace the formula SHA or regenerate it with:
+## Updating
 
 ```bash
-./scripts/update-homebrew-formula.sh
+brew update
+brew upgrade gwtm
+brew upgrade gmux
 ```
-
-4. Commit and push
