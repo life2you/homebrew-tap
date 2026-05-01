@@ -27,3 +27,17 @@ brew update
 brew upgrade gwtm
 brew upgrade gmux
 ```
+
+## Maintainer Flow
+
+When publishing a new tool release:
+
+1. Create and push the new tag from the tool repository
+2. Run that repository's `scripts/update-homebrew-formula.sh`
+3. Copy the updated formula into this repository's `Formula/` directory
+4. Commit and push this tap repository
+
+Tool-specific release SOPs live in:
+
+- `life2you/gwtm`: `RELEASING.md`
+- `life2you/gmux`: `RELEASING.md`
