@@ -10,6 +10,7 @@ Custom Homebrew tap for life2you's tools.
 | --- | --- | --- |
 | `gwtm` | Git worktree manager for local multi-project workflows | `brew install life2you/tap/gwtm` |
 | `gmux` | Terminal Git workflow tool for multi-environment branch sync and GitLab MR automation | `brew install life2you/tap/gmux` |
+| `codexsmtui` | Terminal-first TUI for managing local OpenAI Codex CLI sessions | `brew install life2you/tap/codexsmtui` |
 
 ## Usage
 
@@ -17,6 +18,7 @@ Custom Homebrew tap for life2you's tools.
 brew tap life2you/tap
 brew install gwtm
 brew install gmux
+brew install codexsmtui
 ```
 
 ## Updating
@@ -25,6 +27,7 @@ brew install gmux
 brew update
 brew upgrade gwtm
 brew upgrade gmux
+brew upgrade codexsmtui
 ```
 
 ## Maintainer Flow
@@ -40,3 +43,4 @@ Tool-specific release SOPs live in:
 
 - `life2you/gwtm`: `RELEASING.md` and `RELEASING.zh-CN.md`
 - `life2you/gmux`: `RELEASING.md` and `RELEASING.zh-CN.md`
+- `life2you/codexsmTui`: `README.md`
