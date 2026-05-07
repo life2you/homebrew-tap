@@ -11,6 +11,7 @@
 | `gwtm` | 面向本地多项目工作流的 Git worktree 管理工具 | `brew install life2you/tap/gwtm` |
 | `gmux` | 支持多环境分支同步和 GitLab MR 自动化的终端 Git 工作流工具 | `brew install life2you/tap/gmux` |
 | `codexsmtui` | 用于管理本地 OpenAI Codex CLI sessions 的终端优先 TUI 工具 | `brew install life2you/tap/codexsmtui` |
+| `autosort-mac` | 自动整理 macOS 桌面和下载目录文件的工具 | `brew install life2you/tap/autosort-mac` |
 
 ## 使用方式
 
@@ -19,6 +20,7 @@ brew tap life2you/tap
 brew install gwtm
 brew install gmux
 brew install codexsmtui
+brew install autosort-mac
 ```
 
 ## 更新方式
@@ -28,6 +30,7 @@ brew update
 brew upgrade gwtm
 brew upgrade gmux
 brew upgrade codexsmtui
+brew upgrade autosort-mac
 ```
 
 ## 维护者流程
@@ -44,3 +47,4 @@ brew upgrade codexsmtui
 - `life2you/gwtm`：`RELEASING.md` 和 `RELEASING.zh-CN.md`
 - `life2you/gmux`：`RELEASING.md` 和 `RELEASING.zh-CN.md`
 - `life2you/codexsmTui`：`README.md`
+- `life2you/autosort-mac`：`README.md`
