@@ -12,6 +12,7 @@
 | `gmux` | 支持多环境分支同步和 GitLab MR 自动化的终端 Git 工作流工具 | `brew install life2you/tap/gmux` |
 | `codexsmtui` | 用于管理本地 OpenAI Codex CLI sessions 的终端优先 TUI 工具 | `brew install life2you/tap/codexsmtui` |
 | `autosort-mac` | 自动整理 macOS 桌面和下载目录文件的工具 | `brew install life2you/tap/autosort-mac` |
+| `ashlogin` | 面向 macOS 的终端优先 SSH 账号管理与登录工具 | `brew install life2you/tap/ashlogin` |
 
 ## 使用方式
 
@@ -21,6 +22,7 @@ brew install gwtm
 brew install gmux
 brew install codexsmtui
 brew install autosort-mac
+brew install ashlogin
 ```
 
 ## 更新方式
@@ -31,6 +33,7 @@ brew upgrade gwtm
 brew upgrade gmux
 brew upgrade codexsmtui
 brew upgrade autosort-mac
+brew upgrade ashlogin
 ```
 
 ## 维护者流程
@@ -48,3 +51,4 @@ brew upgrade autosort-mac
 - `life2you/gmux`：`RELEASING.md` 和 `RELEASING.zh-CN.md`
 - `life2you/codexsmTui`：`README.md`
 - `life2you/autosort-mac`：`README.md`
+- `life2you/AshLogin`：`RELEASING.md`

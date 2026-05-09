@@ -12,6 +12,7 @@ Custom Homebrew tap for life2you's tools.
 | `gmux` | Terminal Git workflow tool for multi-environment branch sync and GitLab MR automation | `brew install life2you/tap/gmux` |
 | `codexsmtui` | Terminal-first TUI for managing local OpenAI Codex CLI sessions | `brew install life2you/tap/codexsmtui` |
 | `autosort-mac` | Automatically organize Desktop and Downloads files on macOS | `brew install life2you/tap/autosort-mac` |
+| `ashlogin` | Terminal-first SSH account manager and login launcher for macOS | `brew install life2you/tap/ashlogin` |
 
 ## Usage
 
@@ -21,6 +22,7 @@ brew install gwtm
 brew install gmux
 brew install codexsmtui
 brew install autosort-mac
+brew install ashlogin
 ```
 
 ## Updating
@@ -31,6 +33,7 @@ brew upgrade gwtm
 brew upgrade gmux
 brew upgrade codexsmtui
 brew upgrade autosort-mac
+brew upgrade ashlogin
 ```
 
 ## Maintainer Flow
@@ -48,3 +51,4 @@ Tool-specific release SOPs live in:
 - `life2you/gmux`: `RELEASING.md` and `RELEASING.zh-CN.md`
 - `life2you/codexsmTui`: `README.md`
 - `life2you/autosort-mac`: `README.md`
+- `life2you/AshLogin`: `RELEASING.md`
