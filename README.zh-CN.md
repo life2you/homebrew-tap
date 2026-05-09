@@ -13,6 +13,7 @@
 | `codexsmtui` | 用于管理本地 OpenAI Codex CLI sessions 的终端优先 TUI 工具 | `brew install life2you/tap/codexsmtui` |
 | `autosort-mac` | 自动整理 macOS 桌面和下载目录文件的工具 | `brew install life2you/tap/autosort-mac` |
 | `ashlogin` | 面向 macOS 的终端优先 SSH 账号管理与登录工具 | `brew install life2you/tap/ashlogin` |
+| `wetwin` | 面向 macOS 的轻量级微信多开 TUI 管理工具 | `brew install life2you/tap/wetwin` |
 
 ## 使用方式
 
@@ -23,6 +24,7 @@ brew install gmux
 brew install codexsmtui
 brew install autosort-mac
 brew install ashlogin
+brew install wetwin
 ```
 
 ## 更新方式
@@ -34,6 +36,7 @@ brew upgrade gmux
 brew upgrade codexsmtui
 brew upgrade autosort-mac
 brew upgrade ashlogin
+brew upgrade wetwin
 ```
 
 ## 维护者流程
@@ -49,6 +52,7 @@ brew upgrade ashlogin
 
 - `life2you/gwtm`：`RELEASING.md` 和 `RELEASING.zh-CN.md`
 - `life2you/gmux`：`RELEASING.md` 和 `RELEASING.zh-CN.md`
-- `life2you/codexsmTui`：`README.md`
-- `life2you/autosort-mac`：`README.md`
+- `life2you/codexsmTui`：`RELEASING.md`
+- `life2you/autosort-mac`：`RELEASING.md`
 - `life2you/AshLogin`：`RELEASING.md`
+- `life2you/wetwin`：`scripts/update-homebrew-formula.sh`

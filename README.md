@@ -13,6 +13,7 @@ Custom Homebrew tap for life2you's tools.
 | `codexsmtui` | Terminal-first TUI for managing local OpenAI Codex CLI sessions | `brew install life2you/tap/codexsmtui` |
 | `autosort-mac` | Automatically organize Desktop and Downloads files on macOS | `brew install life2you/tap/autosort-mac` |
 | `ashlogin` | Terminal-first SSH account manager and login launcher for macOS | `brew install life2you/tap/ashlogin` |
+| `wetwin` | Lightweight macOS WeChat multi-instance manager with a terminal UI | `brew install life2you/tap/wetwin` |
 
 ## Usage
 
@@ -23,6 +24,7 @@ brew install gmux
 brew install codexsmtui
 brew install autosort-mac
 brew install ashlogin
+brew install wetwin
 ```
 
 ## Updating
@@ -34,6 +36,7 @@ brew upgrade gmux
 brew upgrade codexsmtui
 brew upgrade autosort-mac
 brew upgrade ashlogin
+brew upgrade wetwin
 ```
 
 ## Maintainer Flow
@@ -49,6 +52,7 @@ Tool-specific release SOPs live in:
 
 - `life2you/gwtm`: `RELEASING.md` and `RELEASING.zh-CN.md`
 - `life2you/gmux`: `RELEASING.md` and `RELEASING.zh-CN.md`
-- `life2you/codexsmTui`: `README.md`
-- `life2you/autosort-mac`: `README.md`
+- `life2you/codexsmTui`: `RELEASING.md`
+- `life2you/autosort-mac`: `RELEASING.md`
 - `life2you/AshLogin`: `RELEASING.md`
+- `life2you/wetwin`: `scripts/update-homebrew-formula.sh`
