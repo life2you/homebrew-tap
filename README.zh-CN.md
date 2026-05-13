@@ -43,10 +43,10 @@ brew upgrade wetwin
 
 当发布新的工具版本时：
 
-1. 在工具仓库中创建并推送新的 tag。
-2. 运行该仓库中的 `scripts/update-homebrew-formula.sh <version>`。
-3. 将更新后的 formula 复制到本仓库的 `Formula/` 目录。
-4. 提交并推送这个 tap 仓库。
+1. 优先使用工具仓库里的 `scripts/release-and-upgrade-local.sh <version>`。
+2. 这个脚本会先推送当前分支和 release tag，在可用时优先使用 `gh`，然后等待 GitHub release workflow 完成，并继续等待本 tap 更新。
+3. 工具仓库里的 `.github/workflows/release.yml` 现在会在 release 发布后自动更新本 tap，但前提是已经配置 `HOMEBREW_TAP_PUSH_TOKEN` 仓库密钥。
+4. 同一个本地脚本随后会执行 `brew update` 和本机 formula 升级，让发布机器上的安装版本保持同步。
 
 工具仓库的发版 SOP 位于：
 

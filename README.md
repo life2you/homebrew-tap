@@ -43,10 +43,10 @@ brew upgrade wetwin
 
 When publishing a new tool release:
 
-1. Create and push the new tag from the tool repository.
-2. Run that repository's `scripts/update-homebrew-formula.sh <version>`.
-3. Copy the updated formula into this repository's `Formula/` directory.
-4. Commit and push this tap repository.
+1. Prefer the tool repository's `scripts/release-and-upgrade-local.sh <version>` helper.
+2. That helper pushes the current branch and release tag, prefers `gh` when available, waits for the GitHub release workflow to finish, then waits for this tap to update.
+3. The tool repository's `.github/workflows/release.yml` now updates this tap automatically after release publication when the `HOMEBREW_TAP_PUSH_TOKEN` secret is configured.
+4. The same local helper then runs `brew update` and upgrades the local formula so the publisher's machine stays in sync.
 
 Tool-specific release SOPs live in:
 
