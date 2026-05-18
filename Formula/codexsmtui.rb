@@ -1,14 +1,23 @@
 class Codexsmtui < Formula
   desc "Terminal-first TUI for managing local OpenAI Codex CLI sessions"
   homepage "https://github.com/life2you/codexsmTui"
-  url "https://github.com/life2you/codexsmTui/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "06e2e450c085cb0be1be63796bf47bb1ceca9bc61eb7c6bb73103b1edaf0cb1f"
+  version "0.1.2"
   license "MIT"
 
-  depends_on "rust" => :build
+  on_macos do
+    on_arm do
+      url "https://github.com/life2you/codexsmTui/releases/download/v0.1.2/codexsmtui-aarch64-apple-darwin.tar.gz"
+      sha256 "7c9ca9131e116aaff292011ae27dbeb154edffece28aa67898ad0f4b2a24018d"
+    end
+
+    on_intel do
+      url "https://github.com/life2you/codexsmTui/releases/download/v0.1.2/codexsmtui-x86_64-apple-darwin.tar.gz"
+      sha256 "b03171560cbe5fca4638a525beeb2696076171fc7a6d65154956b919a1bf2900"
+    end
+  end
 
   def install
-    system "cargo", "install", *std_cargo_args(path: ".")
+    bin.install "codexsmTui"
   end
 
   test do
