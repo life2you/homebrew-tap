@@ -12,7 +12,7 @@
 | `gmux` | 支持多环境分支同步和 GitLab MR 自动化的终端 Git 工作流工具 | `brew install life2you/tap/gmux` |
 | `codexsmtui` | 用于管理本地 OpenAI Codex CLI sessions 的终端优先 TUI 工具 | `brew install life2you/tap/codexsmtui` |
 | `autosort-mac` | 自动整理 macOS 桌面和下载目录文件的工具 | `brew install life2you/tap/autosort-mac` |
-| `ashlogin` | 面向 macOS 的终端优先 SSH 账号管理与登录工具 | `brew install life2you/tap/ashlogin` |
+| `ashlogin` | 选择已配置服务器并调用系统 SSH 客户端的工具 | `brew install life2you/tap/ashlogin` |
 | `wetwin` | 面向 macOS 的轻量级微信多开 TUI 管理工具 | `brew install life2you/tap/wetwin` |
 
 ## 使用方式
@@ -54,5 +54,5 @@ brew upgrade wetwin
 - `life2you/gmux`：`RELEASING.md` 和 `RELEASING.zh-CN.md`
 - `life2you/codexsmTui`：`RELEASING.md`
 - `life2you/autosort-mac`：`RELEASING.md`
-- `life2you/AshLogin`：`RELEASING.md`
+- `life2you/AshLogin`：当前直接在仓库与 tap 中维护发版和 formula 更新
 - `life2you/wetwin`：`scripts/update-homebrew-formula.sh`

@@ -1,8 +1,8 @@
 class Ashlogin < Formula
-  desc "Terminal-first SSH account manager and login launcher for macOS"
+  desc "Small Rust CLI for selecting a configured server and launching system ssh"
   homepage "https://github.com/life2you/AshLogin"
-  url "https://github.com/life2you/AshLogin/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "d07628f4196c2bba77fe3736bac5f374368e08ccf1f456733f61ea4f80955c90"
+  url "https://github.com/life2you/AshLogin/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "c52d71361af6b4eed522f000a33efb8ebaff4624eff57ac10401eb55a5910511"
   license "MIT"
 
   depends_on "rust" => :build
