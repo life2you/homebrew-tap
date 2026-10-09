@@ -7,7 +7,7 @@ cask "agentfloat" do
   desc "macOS desktop floating tracker for AI Coding Agents"
   homepage "https://github.com/life2you/AgentFloat"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "AgentFloat.app"
   binary "#{appdir}/AgentFloat.app/Contents/MacOS/agentfloat"
