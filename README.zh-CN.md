@@ -15,6 +15,13 @@
 | `ashlogin` | 选择已配置服务器并调用系统 SSH 客户端的工具 | `brew install life2you/tap/ashlogin` |
 | `wetwin` | 面向 macOS 的轻量级微信多开 TUI 管理工具 | `brew install life2you/tap/wetwin` |
 
+## 可用 Cask (桌面应用)
+
+| Cask | 说明 | 安装命令 |
+| --- | --- | --- |
+| `agentfloat` | macOS 桌面置顶 AI Coding Agent 轮次结束与任务追踪器 | `brew install --cask life2you/tap/agentfloat` |
+| `gworkbench` | 原生 macOS 桌面端 Git worktrees 与 GitLab merge 效率工作台 | `brew install --cask life2you/tap/gworkbench` |
+
 ## 使用方式
 
 ```bash

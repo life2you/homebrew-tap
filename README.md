@@ -15,6 +15,13 @@ Custom Homebrew tap for life2you's tools.
 | `ashlogin` | Select a configured server and launch the system SSH client | `brew install life2you/tap/ashlogin` |
 | `wetwin` | Lightweight macOS WeChat multi-instance manager with a terminal UI | `brew install life2you/tap/wetwin` |
 
+## Available Casks
+
+| Cask | Description | Install |
+| --- | --- | --- |
+| `agentfloat` | macOS desktop floating tracker for AI Coding Agents | `brew install --cask life2you/tap/agentfloat` |
+| `gworkbench` | Native macOS desktop app for Git worktrees and GitLab merge workflows | `brew install --cask life2you/tap/gworkbench` |
+
 ## Usage
 
 ```bash
