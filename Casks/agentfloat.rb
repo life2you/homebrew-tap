@@ -12,6 +12,13 @@ cask "agentfloat" do
   app "AgentFloat.app"
   binary "#{appdir}/AgentFloat.app/Contents/MacOS/agentfloat"
 
+  postflight do
+    system_command "xattr",
+                   args: ["-cr", "#{appdir}/AgentFloat.app"]
+    system_command "codesign",
+                   args: ["--force", "--deep", "--sign", "-", "#{appdir}/AgentFloat.app"]
+  end
+
   caveats <<~EOS
     若首次启动遇到 macOS 安全提示，可在终端运行：
       xattr -cr /Applications/AgentFloat.app
