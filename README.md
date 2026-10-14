@@ -8,10 +8,6 @@ Custom Homebrew tap for life2you's tools.
 
 | Formula | Description | Install |
 | --- | --- | --- |
-| `gwtm` | Git worktree manager for local multi-project workflows | `brew install life2you/tap/gwtm` |
-| `gmux` | Terminal Git workflow tool for multi-environment branch sync and GitLab MR automation | `brew install life2you/tap/gmux` |
-| `codexsmtui` | Terminal-first TUI for managing local OpenAI Codex CLI sessions | `brew install life2you/tap/codexsmtui` |
-| `autosort-mac` | Automatically organize Desktop and Downloads files on macOS | `brew install life2you/tap/autosort-mac` |
 | `ashlogin` | Select a configured server and launch the system SSH client | `brew install life2you/tap/ashlogin` |
 | `wetwin` | Lightweight macOS WeChat multi-instance manager with a terminal UI | `brew install life2you/tap/wetwin` |
 
@@ -26,10 +22,6 @@ Custom Homebrew tap for life2you's tools.
 
 ```bash
 brew tap life2you/tap
-brew install gwtm
-brew install gmux
-brew install codexsmtui
-brew install autosort-mac
 brew install ashlogin
 brew install wetwin
 ```
@@ -38,10 +30,6 @@ brew install wetwin
 
 ```bash
 brew update
-brew upgrade gwtm
-brew upgrade gmux
-brew upgrade codexsmtui
-brew upgrade autosort-mac
 brew upgrade ashlogin
 brew upgrade wetwin
 ```
@@ -57,9 +45,5 @@ When publishing a new tool release:
 
 Tool-specific release SOPs live in:
 
-- `life2you/gwtm`: `RELEASING.md` and `RELEASING.zh-CN.md`
-- `life2you/gmux`: `RELEASING.md` and `RELEASING.zh-CN.md`
-- `life2you/codexsmTui`: `RELEASING.md`
-- `life2you/autosort-mac`: `RELEASING.md`
 - `life2you/AshLogin`: release and formula update are currently maintained directly in the repository and tap
 - `life2you/wetwin`: `scripts/update-homebrew-formula.sh`
