@@ -17,6 +17,7 @@
 | --- | --- | --- |
 | `agentfloat` | macOS 桌面置顶 AI Coding Agent 轮次结束与任务追踪器 | `brew install --cask life2you/tap/agentfloat` |
 | `gworkbench` | 原生 macOS 桌面端 Git worktrees 与 GitLab merge 效率工作台 | `brew install --cask life2you/tap/gworkbench` |
+| `rowbridge` | macOS 端 MySQL 数据同步工具，按主键分批搬运并自动建表 | `brew install --cask life2you/tap/rowbridge` |
 
 ## 使用方式
 

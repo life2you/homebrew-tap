@@ -17,6 +17,7 @@ Custom Homebrew tap for life2you's tools.
 | --- | --- | --- |
 | `agentfloat` | macOS desktop floating tracker for AI Coding Agents | `brew install --cask life2you/tap/agentfloat` |
 | `gworkbench` | Native macOS desktop app for Git worktrees and GitLab merge workflows | `brew install --cask life2you/tap/gworkbench` |
+| `rowbridge` | MySQL data sync tool that copies tables by primary-key batches | `brew install --cask life2you/tap/rowbridge` |
 
 ## Usage
 
