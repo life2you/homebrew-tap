@@ -1,12 +1,13 @@
 cask "rowbridge" do
-  version "0.2.0"
-  sha256 "3fa3b279edc4145e82da505d820a3020c7f3b168b1d6ca52fd14e80aa4e4baab"
+  version "0.5.0"
+  sha256 "757b2c14a99890ccddcb732294e8f5b7d4c27f6649e8b1651dd6bae962fa9c49"
 
   url "https://github.com/life2you/rowbridge/releases/download/v#{version}/RowBridge_#{version}_aarch64.dmg"
   name "RowBridge"
   desc "MySQL data sync tool that copies tables by primary-key batches"
   homepage "https://github.com/life2you/rowbridge"
 
+  depends_on macos: :catalina
   depends_on arch: :arm64
 
   app "RowBridge.app"
