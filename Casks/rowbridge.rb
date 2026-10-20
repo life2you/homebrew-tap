@@ -1,13 +1,14 @@
 cask "rowbridge" do
-  version "0.5.0"
-  sha256 "757b2c14a99890ccddcb732294e8f5b7d4c27f6649e8b1651dd6bae962fa9c49"
+  version "0.5.2"
+  sha256 "48e2487113c5f0197dca91e94236c5e6a69295f4136e97709646f65aba1fb956"
 
   url "https://github.com/life2you/rowbridge/releases/download/v#{version}/RowBridge_#{version}_aarch64.dmg"
   name "RowBridge"
   desc "MySQL data sync tool that copies tables by primary-key batches"
   homepage "https://github.com/life2you/rowbridge"
 
-  depends_on macos: :catalina
+  # 新版 Homebrew 禁用了 depends_on macos:，最低系统版本由 Info.plist 的
+  # LSMinimumSystemVersion 保证，这里不要再加。
   depends_on arch: :arm64
 
   app "RowBridge.app"
