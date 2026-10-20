@@ -7,7 +7,6 @@ cask "rowbridge" do
   desc "MySQL data sync tool that copies tables by primary-key batches"
   homepage "https://github.com/life2you/rowbridge"
 
-  depends_on macos: :catalina
   depends_on arch: :arm64
 
   app "RowBridge.app"
