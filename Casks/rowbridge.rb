@@ -1,6 +1,6 @@
 cask "rowbridge" do
   version "0.7.0"
-  sha256 "c47bf2c3b898f20cf87c56e3f5cb3579347de1757924078755dfb086d45dd235"
+  sha256 "cf3b5c4a338efadb91be0c969525d346adcdf0f0861237650befad2d931cb869"
 
   url "https://github.com/life2you/rowbridge/releases/download/v#{version}/RowBridge_#{version}_aarch64.dmg"
   name "RowBridge"
