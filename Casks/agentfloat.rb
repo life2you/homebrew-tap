@@ -1,6 +1,6 @@
 cask "agentfloat" do
-  version "1.0.15"
-  sha256 "92d9d16426a1ab80f1bf7994f2f45e7d7d725fc1bbf0892ffd7e611aedfd3b4d"
+  version "1.0.16"
+  sha256 "2f2426f98c3b269c549cf290a047022bafd249f63ad14a8df6668d516d33faf5"
 
   url "https://github.com/life2you/AgentFloat/releases/download/v#{version}/AgentFloat-v#{version}.zip"
   name "AgentFloat"
